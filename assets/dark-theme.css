@@ -1,0 +1,110 @@
+/* Base dark theme styles */
+body.dark {
+    background-color: #1a1a1a !important;
+    color: #ffffff !important;
+}
+
+/* Remove outline on dark mode toggle button */
+.theme-toggle {
+    outline: none !important;
+    background: none !important;
+}
+.theme-toggle:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+/* Navigation dark styles */
+body.dark nav {
+    background-color: #112713 !important;
+}
+
+/* Header dark styles */
+body.dark header {
+    background-color: #1a1a1a !important;
+    color: #ffffff !important;
+}
+
+/* Resume button dark styles - ADD THIS HERE */
+body.dark .resume-btn {
+    background-color: #112713 !important;
+    color: #ffffff !important;
+    border: 2px solid #ffffff !important;
+}
+
+body.dark .resume-btn:hover {
+    background-color: #fd7e14 !important;
+    color: #111827 !important;
+    border-color: #fd7e14 !important;
+}
+
+/* Sections dark styles */
+body.dark section {
+    background-color: #1a1a1a !important;
+}
+
+/* Cards dark styles */
+body.dark .card,
+body.dark .project-card,
+body.dark .academic-card,
+body.dark .testimonial-card,
+body.dark .research-card {
+    background-color: #2f482d !important;
+    color: #ffffff !important;
+}
+
+/* Academic icons dark styles */
+body.dark .academic-card i {
+    color: #ffffff !important;
+}
+
+/* Text colors */
+body.dark h1,
+body.dark h2,
+body.dark h3,
+body.dark p,
+body.dark a {
+    color: #ffffff !important;
+}
+
+/* Form elements - UPDATE THIS SECTION */
+body.dark input,
+body.dark textarea {
+    background-color: #31482d !important;
+    color: #ffffff !important;
+    border-color: #31482d !important;
+}
+
+/* Add these new placeholder styles */
+body.dark input::placeholder,
+body.dark textarea::placeholder {
+    color: #9ca3af !important;
+    opacity: 1 !important;
+}
+
+/* For Firefox */
+body.dark input::-moz-placeholder,
+body.dark textarea::-moz-placeholder {
+    color: #9ca3af !important;
+    opacity: 1 !important;
+}
+
+/* For Internet Explorer */
+body.dark input:-ms-input-placeholder,
+body.dark textarea:-ms-input-placeholder {
+    color: #9ca3af !important;
+}
+
+/* Buttons */
+body.dark button {
+    background-color: #112713 !important;
+    color: #ffffff !important;
+}
+
+/* Footer */
+body.dark footer {
+    background-color: #112713 !important;
+    color: #ffffff !important;
+}
+body.dark .research-wrapper {
+    background: #1a1a1a;
+}
